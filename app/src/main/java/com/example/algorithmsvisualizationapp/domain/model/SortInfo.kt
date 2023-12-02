@@ -1,4 +1,7 @@
 package com.example.algorithmsvisualizationapp.domain.model
 
-class SortInfo {
-}
+data class SortInfo (
+    val currentItem: Int,
+    val shouldSwap: Boolean,
+    val hadNoEffect: Boolean
+)
